@@ -2565,3 +2565,24 @@ footer {
     }
 
 }
+.profile-circle {
+    width: 380px;
+    height: 380px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #ffdbea;
+
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+
+    position: relative;
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+}

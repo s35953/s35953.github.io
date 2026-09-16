@@ -2564,7 +2564,6 @@ footer {
 
     }
 
-}
 .profile-circle {
     width: 380px;
     height: 380px;
@@ -2574,9 +2573,9 @@ footer {
 
     background: #ffdbea;
 
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
-
     position: relative;
+
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
 }
 
 .profile-circle img {
@@ -2584,5 +2583,7 @@ footer {
     height: 100%;
 
     object-fit: cover;
+    object-position: center;
+
     display: block;
 }

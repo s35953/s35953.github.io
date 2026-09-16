@@ -2902,3 +2902,45 @@ footer {
     }
 
 }
+/* =========================
+   ABOUT PAGE PROFILE
+========================= */
+
+.about-profile {
+    position: relative;
+    width: 330px;
+    height: 330px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+}
+
+.about-profile-circle {
+    width: 260px !important;
+    height: 260px !important;
+
+    border-radius: 50% !important;
+    overflow: hidden !important;
+
+    position: relative;
+    z-index: 1;
+
+    background: #ffdbea;
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.about-profile-circle img {
+    width: 100% !important;
+    height: 100% !important;
+
+    display: block;
+
+    object-fit: cover !important;
+    object-position: center;
+
+    border-radius: 50% !important;
+}

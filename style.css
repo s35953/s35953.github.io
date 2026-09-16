@@ -2601,8 +2601,8 @@ footer {
 }
 
 .profile-circle {
-    width: 360px;
-    height: 360px;
+    width: 280px;
+    height: 280px;
 
     border-radius: 50%;
     overflow: hidden;
@@ -2612,7 +2612,7 @@ footer {
     position: relative;
     z-index: 1;
 
-    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
 }
 
 .profile-circle img {

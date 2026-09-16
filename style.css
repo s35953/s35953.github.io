@@ -2809,3 +2809,96 @@ footer {
     }
 
 }
+/* =========================
+   ABOUT PROFILE IMAGE
+========================= */
+
+.profile {
+    position: relative;
+    width: 330px;
+    height: 330px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+}
+
+.profile-circle {
+    width: 260px;
+    height: 260px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #ffdbea;
+
+    position: relative;
+    z-index: 1;
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* ทำให้รูปพอดีกับวงกลม */
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+/* สติกเกอร์ */
+
+.profile-sticker {
+    position: absolute;
+
+    right: 5px;
+    bottom: 25px;
+
+    z-index: 5;
+
+    padding: 15px 18px;
+
+    background: #171717;
+    color: white;
+
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+
+    font-size: 15px;
+    line-height: 1.15;
+
+    transform: rotate(6deg);
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    .profile {
+        width: 290px;
+        height: 290px;
+    }
+
+    .profile-circle {
+        width: 230px;
+        height: 230px;
+    }
+
+    .profile-sticker {
+        right: 0;
+        bottom: 15px;
+
+        font-size: 13px;
+    }
+
+}

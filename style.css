@@ -1,3 +1,4 @@
+```css
 /* ============================= */
 /* HERO COVER IMAGE */
 /* ============================= */
@@ -5,31 +6,35 @@
 .hero-visual {
     position: relative;
     width: 100%;
-    max-width: 500px;
-    min-height: 520px;
+    max-width: 450px;
+    min-height: 450px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* กรอบรูปหน้าปก */
+
+/* ============================= */
+/* COVER IMAGE */
+/* ============================= */
 
 .cover-image {
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
 
-    border-radius: 28px;
+    border-radius: 24px;
     overflow: hidden;
 
     background: #ffdbea;
 
     box-shadow:
-        0 25px 60px rgba(0, 0, 0, 0.15);
+        0 20px 45px rgba(0, 0, 0, 0.12);
 
     position: relative;
     z-index: 2;
 }
+
 
 /* รูปหน้าปก */
 
@@ -51,15 +56,15 @@
 .floating-note {
     position: absolute;
 
-    right: -10px;
-    bottom: 60px;
+    right: 5px;
+    bottom: 45px;
 
     background: #171717;
     color: white;
 
-    padding: 18px 20px;
+    padding: 15px 18px;
 
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.4;
 
     border-radius: 8px;
@@ -68,18 +73,19 @@
 
     z-index: 5;
 
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    box-shadow:
+        0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
 
 .heart {
     position: absolute;
 
-    top: 35px;
-    right: 20px;
+    top: 25px;
+    right: 25px;
 
-    width: 55px;
-    height: 55px;
+    width: 48px;
+    height: 48px;
 
     display: flex;
     align-items: center;
@@ -89,13 +95,14 @@
 
     border-radius: 50%;
 
-    font-size: 32px;
+    font-size: 28px;
 
     z-index: 5;
 
     transform: rotate(10deg);
 
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 
@@ -106,23 +113,32 @@
 @media (max-width: 768px) {
 
     .hero-visual {
-        min-height: 420px;
-        margin-top: 40px;
+        min-height: 380px;
+        margin-top: 30px;
     }
 
     .cover-image {
-        width: 300px;
-        height: 380px;
+        width: 250px;
+        height: 330px;
     }
 
     .floating-note {
         right: 0;
-        bottom: 30px;
+        bottom: 25px;
+
+        padding: 12px 15px;
+        font-size: 12px;
     }
 
     .heart {
         top: 15px;
-        right: 10px;
+        right: 5px;
+
+        width: 42px;
+        height: 42px;
+
+        font-size: 24px;
     }
 
 }
+```
